@@ -158,3 +158,65 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Welcome Pop-up */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(50, 35, 30, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.popup-box {
+  width: 100%;
+  max-width: 420px;
+  background: #fff6f0;
+  padding: 30px 25px;
+  border-radius: 22px;
+  text-align: center;
+  box-shadow: 0 10px 35px #00000030;
+  animation: popupAppear 0.35s ease;
+}
+
+.popup-box h2 {
+  color: #bd8275;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.popup-box p {
+  color: #55443f;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.popup-box button {
+  background: #bd8275;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup-box button:hover {
+  background: #a96e62;
+}
+
+@keyframes popupAppear {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
