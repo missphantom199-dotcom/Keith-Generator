@@ -157,8 +157,8 @@ const folderNames = {
   base: "base",
   hair: "hair",
   eyes: "eyes",
-  eyebrows: "eyebrows",
-  mouths: "mouths",
+  hand: "hand",
+  mouth: "mouth",
   clothing: "clothing",
   accessories: "accessories",
   effects: "effects"
