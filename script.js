@@ -241,8 +241,8 @@ async function renderAvatar() {
     "hair",
     "clothing",
     "eyes",
-    "eyebrows",
-    "mouths",
+    "hand",
+    "mouth",
     "accessories",
     "effects"
   ];
@@ -324,7 +324,7 @@ function resetAvatar() {
 function downloadAvatar() {
   const link = document.createElement("a");
 
-  link.download = "my-little-avatar.png";
+  link.download = "my-keith.png";
   link.href = canvas.toDataURL("image/png");
   link.click();
 }
