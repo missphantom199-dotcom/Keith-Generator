@@ -58,7 +58,7 @@ const assets = {
     }
   ],
   
-  hands: [
+  hand: [
     {
       name: "Hand 1",
       file: "hand-1.png"
@@ -69,7 +69,7 @@ const assets = {
     }
   ],
   
-  mouths: [
+  mouth: [
     {
       name: "Mouth 1",
       file: "mouth-1.png"
