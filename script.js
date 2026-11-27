@@ -50,7 +50,7 @@ const assets = {
     },
     {
       name: "Eyes 7",
-      file: "eyes-7.png."
+      file: "eyes-7.png"
     },
     {
       name: "Eyes 8",
