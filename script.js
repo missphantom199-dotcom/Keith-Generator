@@ -409,3 +409,11 @@ document.getElementById("download")
 // Start the avatar maker
 createControls();
 renderAvatar();
+
+// Welcome pop-up button
+const welcomePopup = document.getElementById("welcomePopup");
+const closeWelcome = document.getElementById("closeWelcome");
+
+closeWelcome.addEventListener("click", () => {
+  welcomePopup.style.display = "none";
+});
