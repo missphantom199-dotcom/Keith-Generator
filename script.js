@@ -410,10 +410,24 @@ document.getElementById("download")
 createControls();
 renderAvatar();
 
-// Welcome pop-up button
+// Welcome pop-up controls
 const welcomePopup = document.getElementById("welcomePopup");
 const closeWelcome = document.getElementById("closeWelcome");
 
 closeWelcome.addEventListener("click", () => {
   welcomePopup.style.display = "none";
+});
+
+// Close when clicking outside the message
+welcomePopup.addEventListener("click", (event) => {
+  if (event.target === welcomePopup) {
+    welcomePopup.style.display = "none";
+  }
+});
+
+// Close with the Escape key
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    welcomePopup.style.display = "none";
+  }
 });
