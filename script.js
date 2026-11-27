@@ -16,7 +16,7 @@ const assets = {
     {
       name: "Hair 1",
       file: "hair-1.png"
-    {,
+    },
     {
       name: "Hair 2",
       file: "hair-2.png"
@@ -93,6 +93,7 @@ const assets = {
     {
       name: "Mouth 6",
       file: "mouth-6.png"
+    }
   ],
 
   clothing: [
