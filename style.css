@@ -61,12 +61,14 @@ h2 {
   background-position: 0 0, 0 12px, 12px -12px, -12px 0;
 }
 
-canvas {
+/* Avatar preview canvas */
+#avatarCanvas {
   display: block;
   width: 100%;
   height: 100%;
 }
 
+/* Customization controls */
 .control-group {
   margin: 18px 0;
 }
@@ -112,6 +114,43 @@ footer {
   text-align: center;
   padding: 20px;
   color: #947a72;
+}
+
+/* Background color wheel */
+.background-picker {
+  margin-top: 25px;
+  padding: 18px;
+  text-align: center;
+  border-top: 1px solid #f0ded8;
+}
+
+#colorWheel {
+  display: block;
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+  margin: 15px auto;
+  border-radius: 50%;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+#selectedColor {
+  display: inline-block;
+  min-width: 110px;
+  padding: 9px 16px;
+  margin: 8px;
+  border: 1px solid #e3c9c0;
+  border-radius: 10px;
+  color: #222;
+  font-weight: bold;
+}
+
+#colorBrightness {
+  display: block;
+  width: 100%;
+  margin: 12px auto;
+  accent-color: #bd8275;
 }
 
 @media (max-width: 700px) {
